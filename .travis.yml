@@ -46,7 +46,7 @@ script:
   - cd raml2markdown/
   - ./build.py
   - cd ..
-  - echo 'docs.oftrust.net' > build/CNAME
+  - echo 'ovdrandom.ddns.net' > build/CNAME
   - cp -R keys ./build/
 
 # Deploy to GitHub pages.
