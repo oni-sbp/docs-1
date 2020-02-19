@@ -53,7 +53,7 @@ script:
   - chmod 777 build.py
   - ./build.py
   - cd ..
-  - echo 'oni.hopto.org' > build/CNAME
+  - echo 'dddovdrandom.ddns.net' > build/CNAME
   - cp -R keys ./build/
 
 # Deploy to GitHub pages.
