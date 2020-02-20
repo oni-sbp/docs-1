@@ -1,7 +1,7 @@
 #!/usr/bin/env bash
 set -exuo pipefail
 
-git clone https://oni-sbp:$ONI_PASS@github.com/oni-sbp/CodeGen-Code.git
+git clone https://oni-sbp:$GH_PASSWORD@github.com/oni-sbp/CodeGen-Code.git
 
 cd CodeGen-Code
 npm install
@@ -15,4 +15,4 @@ npm install
 cd oas-raml-converter
 npm install
 
-node API-Engine-cmd.js --input ./raml2markdown/src --output ./build  --host $HOST --scheme $SCHEME
+node API-Engine-cmd.js --input ./raml2markdown/src --output ./build --host $HOST --scheme $SCHEME

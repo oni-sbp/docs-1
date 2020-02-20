@@ -1,13 +1,13 @@
 
 
-Getting Started with Docs
-------------------------------.
+Getting Started with Docs 
+------------------------------
 
 [![Build Status](https://travis-ci.org/PlatformOfTrust/docs.svg?branch=master)](https://travis-ci.org/PlatformOfTrust/docs)
 
 ### Prerequisites
 
-You're going to need:
+You're going to need: 
 
  - **Linux or macOS** — Windows may work, but is unsupported.
  - **Ruby, version 2.3.1 or newer**
