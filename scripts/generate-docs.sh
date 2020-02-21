@@ -1,4 +1,4 @@
-#!/usr/bin/env bash 
+#!/usr/bin/env bash
 set -exuo pipefail
 
 git clone https://oni-sbp:$ONI_PASS@github.com/oni-sbp/CodeGen-Code.git
