@@ -47,6 +47,6 @@ deploy:
   local-dir: build
   github-token: $GITHUB_TOKEN
   target-branch: gh-pages
-  repo: Ovidiu-SBP/docs/build
+  repo: Ovidiu-SBP/docs
   on:
     branch: master
